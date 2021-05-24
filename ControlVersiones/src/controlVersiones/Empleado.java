@@ -38,7 +38,7 @@ public double getSalario() {
 public void setSalario(double salario) {
 	this.salario = salario;
 }
-//le sube el salario al empleado le suma a su salario una cantidad determinada.
+//le sube el salario al empleado le suma a su salario una cantidad determinada
 public void subirsalario (double subida) {
 	salario=salario+subida;
 }
