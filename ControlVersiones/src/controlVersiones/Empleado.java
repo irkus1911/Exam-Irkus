@@ -1,11 +1,17 @@
 package controlVersiones;
-
+/**
+ * 
+ * @author Irkus
+ * @version Version 1, 2021
+ * @since 24/05/2021
+ *
+ */
 public class Empleado {
-	private String nombre;
-	private String apellidos;
-	private double salario; 
+	private String nombre;//nombre empleado
+	private String apellidos;//apellidos del empleado
+	private double salario; //salario del empleado
 
-
+//constructor
 public Empleado(String nombre, String apellido, double salario) {
 	this.nombre = nombre;
 	this.apellidos = apellido;
@@ -32,7 +38,7 @@ public double getSalario() {
 public void setSalario(double salario) {
 	this.salario = salario;
 }
-
+//le sube el salario al empleado le suma a su salario una cantidad determinada
 public void subirsalario (double subida) {
 	salario=salario+subida;
 }
